@@ -52,7 +52,7 @@ if (isset($_POST['update_cat'])) {
                     <!-- Título do Post -->
                     <div class="form-group col-12">
                         <label class="pt-1 pb-2" for="title">Nome Categoria</label>
-                        <input required type="text" class="form-control" name="name" value=<?php echo $cat_title; ?>>
+                        <input required type="text" class="form-control" name="name" value='<?php echo $cat_title; ?>'>
                     </div>
 
                     <!-- Botão de Enviar -->
