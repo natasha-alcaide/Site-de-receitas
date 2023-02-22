@@ -7,7 +7,15 @@
                 </a>
             </div>
             <div class="d-flex justify-content-end align-items-center">
-                <a class="btn btn-sm btn-outline-light" href="admin/login.php">Login</a>
+                <?php
+                if (isset($_SESSION['user_role']) && $_SESSION['user_role'] == "admin") {
+                    echo "<a class='btn btn-sm btn-outline-light' href='admin/index.php'>Área Admin</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class='btn btn-sm btn-outline-light' href='admin/logout.php'>Logout</a>";
+                } elseif (isset($_SESSION['user_role']) && $_SESSION['user_role'] == "subscriber") {
+                    echo "<a class='btn btn-sm btn-outline-light' href='subscriber/index.php?user_id=" . $_SESSION['user_id'] . "'>Área Editor</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class='btn btn-sm btn-outline-light' href='admin/logout.php'>Logout</a>";
+                } else {
+                    echo "<a class='btn btn-sm btn-outline-light' href='admin/login.php'>Login</a>";
+                }
+                ?>
             </div>
         </div>
     </header>

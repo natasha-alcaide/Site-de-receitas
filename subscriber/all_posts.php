@@ -29,7 +29,7 @@ switch ($source) {
 
 ?>
 
-    <?php include "include/admin_head.php" ?>
+    <?php include "include/subs_head.php" ?>
     <?php include "include/header.php" ?>
 
     <div class="container-fluid">

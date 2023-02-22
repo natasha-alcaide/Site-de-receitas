@@ -68,7 +68,7 @@ switch ($source) {
 
                         </table>
 
-                    </div>  
+                    </div>
 
                 </main>
             </div>
