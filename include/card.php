@@ -35,7 +35,7 @@ while ($row = mysqli_fetch_assoc($select_post)) {
             </div>
 
             <div class='col-auto d-none d-lg-block'>
-                <img class='bd-placeholder-img' width='200' height='200' focusable='false' src=" . $post_image . ">
+                <img class='bd-placeholder-img' width='200' height='200' focusable='false' src='" . $post_image . "'>
             </div>
         </div>
     </div>";

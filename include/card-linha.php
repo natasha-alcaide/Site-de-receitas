@@ -9,7 +9,7 @@
         </div>
 
         <div class="col-auto d-none d-lg-block">
-            <img src=<?=$card_post_image ?> style="width: 300px; height: 200px">
+            <img src='<?=$card_post_image ?>' style="width: 300px; height: 200px">
         </div>
 
     </div>
