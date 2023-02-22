@@ -1,0 +1,17 @@
+#login-email-error,
+#login-password-error {
+  display: none;
+  font-size: 0.8em;
+}
+
+#login-email-error.visible,
+#login-password-error.visible {
+  display: block;
+  margin: 6px 0;
+  color: red;
+}
+
+#login-email.invalid,
+#login-password.invalid {
+  border-color: red;
+}

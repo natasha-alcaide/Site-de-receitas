@@ -1,0 +1,17 @@
+#admin-login-email-error,
+#admin-login-password-error {
+  display: none;
+  font-size: 0.8em;
+}
+
+#admin-login-email-error.visible,
+#admin-login-password-error.visible {
+  display: block;
+  margin: 6px 0;
+  color: red;
+}
+
+#admin-login-email.invalid,
+#admin-login-password.invalid {
+  border-color: red;
+}

@@ -1,0 +1,23 @@
+#register-name-error,
+#register-email-error,
+#register-password-error,
+#register-confirm-password-error {
+  display: none;
+  font-size: 0.8em;
+}
+
+#register-name-error.visible,
+#register-email-error.visible,
+#register-password-error.visible,
+#register-confirm-password-error.visible {
+  display: block;
+  margin: 6px 0;
+  color: red;
+}
+
+#register-name.invalid,
+#register-email.invalid,
+#register-password.invalid,
+#register-confirm-password.invalid {
+  border-color: red;
+}

@@ -1,0 +1,29 @@
+#admin-register-username-error,
+#admin-register-firstname-error,
+#admin-register-lastname-error,
+#admin-register-email-error,
+#admin-register-password-error,
+#admin-register-confirm-password-error {
+  display: none;
+  font-size: 0.8em;
+}
+
+#admin-register-username-error.visible,
+#admin-register-firstname-error.visible,
+#admin-register-lastname-error.visible,
+#admin-register-email-error.visible,
+#admin-register-password-error.visible,
+#admin-register-confirm-password-error.visible {
+  display: block;
+  margin: 6px 0;
+  color: red;
+}
+
+#admin-register-username.invalid,
+#admin-register-firstname.invalid,
+#admin-register-lastname.invalid,
+#admin-register-email.invalid,
+#admin-register-password.invalid,
+#admin-register-confirm-password.invalid {
+  border-color: red;
+}

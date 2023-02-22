@@ -1,0 +1,20 @@
+#comment-author-error,
+#comment-email-error,
+#comment-content-error {
+  display: none;
+  font-size: 0.8em;
+}
+
+#comment-author-error.visible,
+#comment-email-error.visible,
+#comment-content-error.visible {
+  display: block;
+  margin: 6px 0;
+  color: red;
+}
+
+#comment-author.invalid,
+#comment-email.invalid,
+#comment-content.invalid {
+  border-color: red;
+}
